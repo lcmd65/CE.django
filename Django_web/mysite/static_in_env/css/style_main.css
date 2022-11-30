@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+.text-center{
+   text-align: center;
+}
+.d-flex{
+   display: flex;
+}
+#header {
+    background: #0073aa;
+}
+#header h2 {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 15px 0px;
+    color: #f8f8f8;
+    text-transform: uppercase;
+    flex: 100%;
+    margin: 0px;
+}
+#wp-content {
+    background: #f4f4f4;
+}
+#content {
+    order: 2;
+    flex: 600px;
+   min-height: 600px;
+}
+#sidebar {
+    order: 1;
+    flex: 360px;
+    background: #e1e1e1;
+   min-height: 600px;
+}
+#footer {
+    background: #232323;
+    color: #f8f8f8;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 5px 0px;
+}
+#footer p {
+    margin: 0px;
+}
